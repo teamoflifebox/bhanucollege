@@ -1,5 +1,4 @@
-import React from 'react';
-import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, PieChart, Pie, Cell } from 'recharts';
+import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer } from 'recharts';
 import { Users, BookOpen, Upload, MessageSquare, TrendingUp, Calendar, Award, Clock } from 'lucide-react';
 import StatCard from '../../components/UI/StatCard';
 import DataTable from '../../components/UI/DataTable';
@@ -30,7 +29,6 @@ const upcomingClasses = [
   { subject: 'Database Systems', class: 'CSE-C', time: '04:00 PM', room: 'Lab-102' },
 ];
 
-const COLORS = ['#3B82F6', '#10B981', '#F59E0B', '#EF4444'];
 
 export default function FacultyDashboard() {
   const { user } = useAuth();
