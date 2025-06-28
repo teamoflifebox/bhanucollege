@@ -20,7 +20,7 @@ import AddStudentPage from './pages/AddStudentPage';
 import AddFacultyPage from './pages/AddFacultyPage';
 import ManageClassesPage from './pages/ManageClassesPage';
 import DashboardLayout from './components/Layout/DashboardLayout';
-import LandingPage from './pages/LandingPage';
+import LandingPage from './LandingPage';
 
 function ProtectedRoute({ children }: { children: React.ReactNode }) {
   const { user, isLoading } = useAuth();
