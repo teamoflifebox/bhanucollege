@@ -20,7 +20,6 @@ import AddStudentPage from './pages/AddStudentPage';
 import AddFacultyPage from './pages/AddFacultyPage';
 import ManageClassesPage from './pages/ManageClassesPage';
 import DashboardLayout from './components/Layout/DashboardLayout';
-import LandingPage from './LandingPage';
 
 function ProtectedRoute({ children }: { children: React.ReactNode }) {
   const { user, isLoading } = useAuth();
@@ -39,7 +38,6 @@ function ProtectedRoute({ children }: { children: React.ReactNode }) {
 function AppRoutes() {
   return (
     <Routes>
-    <Route path="/" element={<LandingPage/>}/>
       <Route path="/login" element={<Login />} />
       <Route
         path="/*"
