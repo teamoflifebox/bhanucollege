@@ -299,7 +299,7 @@ export default function ReportsPage() {
                   </h3>
                   {/* <ResponsiveContainer width="100%" height={300}>
                     <RechartsPieChart>
-                      <PieChart
+                      <Pie
                         data={gradeDistribution}
                         cx="50%"
                         cy="50%"
@@ -311,7 +311,7 @@ export default function ReportsPage() {
                         {gradeDistribution.map((entry, index) => (
                           <Cell key={`cell-${index}`} fill={entry.color} />
                         ))}
-                      </PieChart>
+                      </Pie>
                       <Tooltip />
                     </RechartsPieChart>
                   </ResponsiveContainer> */}
